@@ -11,7 +11,7 @@ let population = 400;
 
 console.log ('I live in '+country+', which is in '+continent+', and has '+population+' million people');
 */
-
+/*
 const now = 2021;
 const BobsAge = 45;
 console.log('Bob was born in ',now-BobsAge);
@@ -56,3 +56,16 @@ console.log(paul);
 
 const paulLiteral = `I'm still ${firstName}, a ${currentYear - birthYear}-year-old ${job}`;
 console.log(paulLiteral);
+*/
+
+const age = '18';
+if (age === 18) {
+    console.log("You just became an adult (strict)");
+}
+if (age == 18) {
+    console.log("You just became an adult (loose)");
+}
+
+const favorite = prompt("What is your favorite number?");
+const response = `Response: ${favorite} type: ${typeof(favorite)}`;
+console.log(response);
